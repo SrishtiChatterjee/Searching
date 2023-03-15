@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-int i, l, h, mid, n, key, array[100];
+int i, l, h, m, n, key, array[100];
 printf("Enter number of elements: ");
 scanf("%d",&n);
 printf("Enter %d integers: \n", n);
@@ -26,4 +26,4 @@ m = (l + h)/2;
 if(l > h)
 printf("Not found! %d isn't present in the list", key);
 return 0;
-}
+}    
